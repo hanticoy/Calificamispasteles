@@ -1,0 +1,35 @@
+
+<div class="detailFrame">
+  <br>
+  <h1>Bakes By {{taskToShow.user}}</h1>
+  <br>
+  <section class="listProduct">
+    <div>
+      <table class="tblProducto">
+        <tr>
+          <td rowspan="4" align="center" width="30%"><img class="imgList" src="{{taskToShow.imagenKake}}" alt=""></td>
+        </tr>
+        <tr>
+          <td colspan="3" align="right">
+            <form (submit)="onEditProducto()">
+              <p><select class="campoIngreso" name="editProduct.cantStars" [(ngModel)]="taskToShow.cantStars">
+                  <option value="1">1 Estrellas</option>
+                  <option value="2">2 Estrellas</option>
+                  <option value="3">3 Estrellas</option>
+                  <option value="4">4 Estrellas</option>
+                  <option value="5">5 Estrellas</option>
+                </select>
+              </p>
+              <br>
+              <p>
+                <input class="campoIngreso" type="text" name="taskToShow.comentario" [(ngModel)]="taskToShow.comentario"></p>
+              <br>
+              <p><input class="button" type="submit" value="Comentar"></p>
+            </form>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </section>
+
+</div>

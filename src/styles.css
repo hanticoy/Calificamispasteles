@@ -1,1 +1,118 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0px;
+  padding-left: 10px;
+}
+
+main {
+  /* border: 5px solid blue; */
+  display:flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+.ingreso {
+  border: 5px solid black;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  width: 600px;
+  
+}
+
+.primeraSeccion{
+  /* border: 5px solid red; */
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 30px;
+}
+
+.imgList{
+  width: 200px;
+  height: 150px;
+}
+
+.listProduct{
+  /* border: 5px solid blue; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  width: 80%;
+}
+
+.tblProducto{
+  border: 2px solid black;
+  border-radius: 25px;
+  padding-top: 20px;
+  width: 600px;
+}
+
+.product{
+  border: 5px solid rgb(70, 77, 98);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-wrap: nowrap;
+}
+
+.camposTitulo{
+  font-size: larger;
+  color: #1976d2;
+}
+
+.campoIngreso{
+  width: 300px;
+}
+.detailFrame{
+  border: 5px solid black;
+  border-radius: 25px;
+  text-align: left;
+  padding-left: 20px;
+  width: 98%;
+}
+
+.productDetail{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+/* Button */
+.button, button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px;
+  border-radius: 25px;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  height: 50px;
+}
+
+.button:hover, button:hover {
+  opacity: 0.8;
+  font-weight: normal;
+}
+
+.button:disabled, button:disabled {
+  opacity: 0.5;
+  cursor: auto;
+}
+a {
+  cursor: pointer;
+  color: #1976d2;
+  text-decoration: none;
+}
+a:hover {
+  opacity: 0.8;
+}

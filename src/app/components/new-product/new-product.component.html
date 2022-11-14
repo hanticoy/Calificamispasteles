@@ -1,0 +1,23 @@
+
+<form (submit)="onNewProduct()">
+<section class="ingreso">
+    <h1>Rates my cakes</h1><br>
+    <div class="camposTitulo"><b>Nombre</b></div>
+    <br>
+    <div>
+      <input class="campoIngreso" type="text" name="newProduct.user" [(ngModel)]="newProduct.user">
+    </div>
+    <br>
+    <div class="camposTitulo"><b>Url Img</b></div>
+    <br>
+    <div><select class="campoIngreso" name="newProduct.imagenKake" [(ngModel)]="newProduct.imagenKake">
+        <option value="../assets/img/kake.jpg">Torta</option>
+        <option value="../assets/img/biscocho.jpg">biscocho</option>
+        <option value="../assets/img/pai.jpg">Pai</option>
+      </select>
+    </div>
+    <br>
+    <div><input class="button" type="submit" value="Enviar"></div>
+
+</section>
+</form>

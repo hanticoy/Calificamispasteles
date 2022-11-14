@@ -1,3 +1,17 @@
+# Califica mis pasteles
+Crea una aplicación que le permita a los usuarios enviar fotos de pasteles. Todos los pasteles pueden verse, calificarse de 1 a 5 estrellas y comentarse. Cuando se hace clic en una imagen de pastel, haz que el componente de detalle anidado muestre la imagen, el pastelero del pastel, la puntuación promedio y todas las diferentes puntuaciones y comentarios.
+
+# Comandos
+ng generate --help        : para ver todos los tipos de elementos que podemos crear dentro de mi proyecto
+ng new angularApi         : padd .ara crear el proyecto
+ng g s http               : para agregar un servicio
+ng generate component "components/pageNotFound"    : para crear una pagina de no encontrado
+ng generate component "components/detalleTarea"
+npm install               : para reconstruir el proyecto a partir del package.json
+<p>{{qryTask | json}}</p> : para poder visualizar los cambios de un objeto en forma inmediata
+git rm -r myFolder: para eliminar algun elemento que no se debe subir al repo 
+
+
 # AngKakesProj
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.9.
